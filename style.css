@@ -1,34 +1,77 @@
-
-
 body {
-    background-color: cornflowerblue;
-    color: #fff;
+    background-color: #f1f1f1;
+    font-family: sans-serif;
 }
 
-section {
+hr {
+    width: 90%;
+    border-top: 1px solid lightgray;
+}
+
+.container {
+    /* background-color: red; */
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.column {
+    float: left;
+}
+
+.left-column {
     background-color: #fff;
+    width: 30%;
+    box-shadow: 0px 5px 15px gray;
 }
 
-#profil {
-    background-color: red;
-    padding: 74px;
-    margin: 55px;
-    border: 10px dotted;
-    transition: 1s;
+.profile-photo {
+    width: 100%;
 }
 
-#profil:hover {
-    background-color: gold;
-    color: black;
-    border-radius: 50px;
-    box-shadow: 10px 10px black;
-    transform: translateY(-100px);
+.name {
+    margin-left: 8px;
+    font-size: 50px;
 }
 
-.test {
-    background-color: green;
+.basic-info {
+    margin: 10px 8px;
 }
 
-#umiejetnosci {
-    color: black;
+.basic-info i {
+    color: teal;
+    margin-right: 8px;
+}
+
+.skills {
+    margin: 8px;
+}
+
+.skills i {
+    margin-right: 8px;
+    color: teal;
+}
+
+.progress {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+.progress-fill {
+    background-color: teal;
+    border-radius: 8px;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: small;
+}
+
+.right-column {
+    background-color: #fff;
+    width: 65%;
+    margin-left: 16px;
+}
+
+.footer {
+    /* background-color: lightblue; */
+    clear: both;
 }
