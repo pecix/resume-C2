@@ -20,6 +20,15 @@ table {
 table img {
     width: 250px;
     height: 250px;
+    transition: .5s;
+}
+
+table img:hover {
+    scale: 1.1;
+}
+
+table td {
+    overflow: hidden;
 }
 
 .container {
