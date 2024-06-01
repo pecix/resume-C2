@@ -1,6 +1,7 @@
 body {
     background-color: #f1f1f1;
     font-family: sans-serif;
+    margin: 0;
 }
 
 hr {
@@ -8,10 +9,13 @@ hr {
     border-top: 1px solid lightgray;
 }
 
+li::marker {
+    color: teal;
+}
+
 .container {
-    /* background-color: red; */
     width: 1400px;
-    margin: 0 auto;
+    margin: 16px auto;
 }
 
 .column {
@@ -46,7 +50,8 @@ hr {
     margin: 8px;
 }
 
-.skills i {
+.skills i,
+.section i {
     margin-right: 8px;
     color: teal;
 }
@@ -65,13 +70,33 @@ hr {
     font-size: small;
 }
 
+.custom-height {
+    height: 20px;
+}
+
 .right-column {
-    background-color: #fff;
+    /* background-color: red; */
     width: 65%;
     margin-left: 16px;
 }
 
+.section {
+    background-color: #fff;
+    margin-bottom: 16px;
+    box-shadow: 0px 5px 15px gray;
+    padding: 16px;
+}
+
+.employment-time {
+    color: teal;
+}
+
 .footer {
-    /* background-color: lightblue; */
+    background-color: teal;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     clear: both;
 }
