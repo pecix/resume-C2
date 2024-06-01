@@ -28,13 +28,16 @@ table img {
 }
 
 .column {
-    float: left;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .left-column {
     background-color: #fff;
     width: 30%;
     box-shadow: 0px 5px 15px gray;
+    position: sticky;
+    top: 0;
 }
 
 .profile-photo {
@@ -84,7 +87,6 @@ table img {
 }
 
 .right-column {
-    /* background-color: red; */
     width: 65%;
     margin-left: 16px;
 }
@@ -107,5 +109,4 @@ table img {
     display: flex;
     justify-content: center;
     align-items: center;
-    clear: both;
 }
